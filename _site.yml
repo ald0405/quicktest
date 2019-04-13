@@ -1,0 +1,33 @@
+name: "my-website"
+navbar:
+  title: "My Website"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "CV"
+      icon: fa-id-card
+      href: about.html
+    - text: "Portfolio"
+      icon: fa-briefcase
+      menu:
+        - text: "Sports"
+        - text: "Cricket"
+          href: page-a.html
+        - text: "CSGO"
+          href: page-b.html
+        - text: "---------"
+        - text: "Biology"
+        - text: "Mismatch Distributions"
+          href: mm.html
+        - text: "Page D"
+          href: page-d.html
+  right:
+    - icon: fa-question fa-lg
+      href: https://example.com
+  output:
+  html_document:
+  theme: readable
+  higlight: textmate
+  
